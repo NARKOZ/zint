@@ -1,7 +1,5 @@
 # Zint
 
-## Evocative CSS Gradient Text Styles
-
 Modern, ready-to-use CSS gradients for text, built entirely with the OKLCH color
 model.
 
