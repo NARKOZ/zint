@@ -5,7 +5,10 @@
   "homepage": "https://github.com/NARKOZ/zint",
   "license": "BSD-2-Clause",
   "author": "Nihad Abbasov <nihad@42na.in>",
-  "repository": "github:NARKOZ/zint",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NARKOZ/zint.git"
+  },
   "bugs": {
     "url": "https://github.com/NARKOZ/zint/issues"
   },
