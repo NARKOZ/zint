@@ -1,0 +1,183 @@
+/*! Zint v1.0.0 | BSD-2-Clause License | https://github.com/NARKOZ/zint */
+:root {
+  --zint-aqua-flora: linear-gradient(120deg, oklch(90% 0.25 160deg), oklch(65% 0.3 240deg));
+  --zint-azure-tide: linear-gradient(162deg, oklch(63% 0.22 264deg) 35%, oklch(68% 0.14 220deg) 79%);
+  --zint-coral-glow: linear-gradient(to right, oklch(75% 0.19 30deg), oklch(85% 0.12 70deg));
+  --zint-deep-sea-mist: linear-gradient(to right, oklch(35% 0.03 260deg), oklch(65% 0.08 220deg));
+  --zint-dreamy-haze: radial-gradient(circle, oklch(88% 0.1 340deg), oklch(85% 0.08 260deg));
+  --zint-forest-stream: linear-gradient(45deg, oklch(55% 0.12 150deg), oklch(70% 0.1 210deg));
+  --zint-fuchsia-flash: linear-gradient(110deg, oklch(70% 0.3 330deg), oklch(50% 0.25 280deg));
+  --zint-galactic-beam: linear-gradient(45deg, oklch(45% 0.25 290deg), oklch(60% 0.25 260deg));
+  --zint-glacial-ice: linear-gradient(135deg, oklch(95% 0.08 210deg), oklch(78% 0.15 255deg));
+  --zint-graphite-sheen: linear-gradient(to right, oklch(25% 0.01 280deg), oklch(38% 0.01 280deg));
+  --zint-liquid-gold: linear-gradient(to right, oklch(65% 0.1 90deg), oklch(98% 0.05 100deg), oklch(65% 0.1 90deg));
+  --zint-meadow-spring: linear-gradient(162deg, oklch(68% 0.2 145deg) 35%, oklch(68% 0.14 220deg) 79%);
+  --zint-neon-fusion: linear-gradient(to right, oklch(65% 0.3 330deg), oklch(30% 0.2 280deg));
+  --zint-pastel-morning: linear-gradient(to right, oklch(80% 0.1 50deg), oklch(80% 0.1 300deg));
+  --zint-phoenix-fire: linear-gradient(45deg, oklch(68% 0.24 30deg), oklch(58% 0.25 350deg));
+  --zint-solar-flare: radial-gradient(ellipse at center, oklch(90% 0.2 90deg), oklch(70% 0.25 45deg), oklch(50% 0.3 5deg));
+  --zint-starlit-abyss: linear-gradient(90deg, oklch(20% 0.05 280deg), oklch(35% 0.15 270deg), oklch(75% 0.25 230deg));
+  --zint-supernova-burst: linear-gradient(70deg, oklch(65% 0.25 250deg), oklch(85% 0.25 145deg));
+  --zint-tropical-zest: linear-gradient(to right, oklch(75% 0.2 70deg), oklch(90% 0.2 90deg));
+  --zint-volcanic-sunset: linear-gradient(162deg, oklch(65% 0.23 25deg) 35%, oklch(78% 0.18 60deg) 79%);
+}
+
+.zint-aqua-flora {
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  -webkit-text-fill-color: transparent;
+  background-image: var(--zint-aqua-flora);
+}
+
+.zint-azure-tide {
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  -webkit-text-fill-color: transparent;
+  background-image: var(--zint-azure-tide);
+}
+
+.zint-coral-glow {
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  -webkit-text-fill-color: transparent;
+  background-image: var(--zint-coral-glow);
+}
+
+.zint-deep-sea-mist {
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  -webkit-text-fill-color: transparent;
+  background-image: var(--zint-deep-sea-mist);
+}
+
+.zint-dreamy-haze {
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  -webkit-text-fill-color: transparent;
+  background-image: var(--zint-dreamy-haze);
+}
+
+.zint-forest-stream {
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  -webkit-text-fill-color: transparent;
+  background-image: var(--zint-forest-stream);
+}
+
+.zint-fuchsia-flash {
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  -webkit-text-fill-color: transparent;
+  background-image: var(--zint-fuchsia-flash);
+}
+
+.zint-galactic-beam {
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  -webkit-text-fill-color: transparent;
+  background-image: var(--zint-galactic-beam);
+}
+
+.zint-glacial-ice {
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  -webkit-text-fill-color: transparent;
+  background-image: var(--zint-glacial-ice);
+}
+
+.zint-graphite-sheen {
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  -webkit-text-fill-color: transparent;
+  background-image: var(--zint-graphite-sheen);
+}
+
+.zint-liquid-gold {
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  -webkit-text-fill-color: transparent;
+  background-image: var(--zint-liquid-gold);
+}
+
+.zint-meadow-spring {
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  -webkit-text-fill-color: transparent;
+  background-image: var(--zint-meadow-spring);
+}
+
+.zint-neon-fusion {
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  -webkit-text-fill-color: transparent;
+  background-image: var(--zint-neon-fusion);
+}
+
+.zint-pastel-morning {
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  -webkit-text-fill-color: transparent;
+  background-image: var(--zint-pastel-morning);
+}
+
+.zint-phoenix-fire {
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  -webkit-text-fill-color: transparent;
+  background-image: var(--zint-phoenix-fire);
+}
+
+.zint-solar-flare {
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  -webkit-text-fill-color: transparent;
+  background-image: var(--zint-solar-flare);
+}
+
+.zint-starlit-abyss {
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  -webkit-text-fill-color: transparent;
+  background-image: var(--zint-starlit-abyss);
+}
+
+.zint-supernova-burst {
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  -webkit-text-fill-color: transparent;
+  background-image: var(--zint-supernova-burst);
+}
+
+.zint-tropical-zest {
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  -webkit-text-fill-color: transparent;
+  background-image: var(--zint-tropical-zest);
+}
+
+.zint-volcanic-sunset {
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  -webkit-text-fill-color: transparent;
+  background-image: var(--zint-volcanic-sunset);
+}

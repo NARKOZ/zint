@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Zint - Evocative CSS Gradient Text Styles</title>
+  <meta name="description" content="Modern, ready-to-use CSS gradients for text, built entirely with the OKLCH color model.">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&display=swap" rel="stylesheet">
+  <link href="../dist/zint.css" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Inter', sans-serif;
+      transition: background-color 0.3s, color 0.3s;
+    }
+
+    .light-theme {
+      background-color: #f0f2f5;
+      color: #1a202c;
+    }
+
+    .light-theme .bg-gray-800 {
+      background-color: #ffffff;
+      box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    }
+
+    .light-theme .text-white {
+      color: #1a202c;
+    }
+
+    .light-theme .text-gray-300 {
+      color: #4a5568;
+    }
+
+    .light-theme .text-gray-400 {
+      color: #718096;
+    }
+
+    .light-theme .bg-gray-900 {
+      background-color: #e2e8f0;
+    }
+  </style>
+</head>
+<body class="bg-gray-900 text-white p-8">
+  <div class="max-w-4xl mx-auto text-center relative">
+    <h1 class="text-5xl font-black mb-4 zint-supernova-burst">Evocative CSS Gradients</h1>
+    <p class="text-gray-400 mb-12">Modern, ready-to-use CSS gradients for text, built entirely with the OKLCH color model.</p>
+    <div class="absolute top-0 right-0 flex items-center space-x-2">
+      <a href="https://github.com/NARKOZ/zint" title="View on GitHub" class="p-2 rounded-full text-gray-400 hover:text-white focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24">
+          <path fill-rule="evenodd" d="M12 2C6.477 2 2 6.477 2 12c0 4.418 2.865 8.168 6.839 9.49.5.092.682-.217.682-.482 0-.237-.009-.868-.014-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.031-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.378.203 2.397.1 2.65.64.7 1.03 1.595 1.03 2.688 0 3.848-2.338 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.001 10.001 0 0022 12c0-5.523-4.477-10-10-10z" clip-rule="evenodd" />
+        </svg>
+      </a>
+      <button id="theme-toggle" title="Toggle theme" class="p-2 rounded-full text-gray-400 hover:text-white focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z" />
+        </svg>
+      </button>
+    </div>
+  </div>
+
+  <div class="max-w-5xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8">
+    <div class="bg-gray-800 rounded-lg p-6 shadow-lg">
+      <h2 class="text-4xl font-bold mb-4 zint-azure-tide">Azure Tide</h2>
+      <pre class="bg-gray-900 text-sm text-gray-300 p-4 rounded-md overflow-x-auto"><code>&lt;h2 class=&quot;zint-azure-tide&quot;&gt;Azure Tide&lt;/h2&gt;</code></pre>
+    </div>
+    <div class="bg-gray-800 rounded-lg p-6 shadow-lg">
+      <h2 class="text-4xl font-bold mb-4 zint-volcanic-sunset">Volcanic Sunset</h2>
+      <pre class="bg-gray-900 text-sm text-gray-300 p-4 rounded-md overflow-x-auto"><code>&lt;h2 class=&quot;zint-volcanic-sunset&quot;&gt;Volcanic Sunset&lt;/h2&gt;</code></pre>
+    </div>
+    <div class="bg-gray-800 rounded-lg p-6 shadow-lg">
+      <h2 class="text-4xl font-bold mb-4 zint-meadow-spring">Meadow Spring</h2>
+      <pre class="bg-gray-900 text-sm text-gray-300 p-4 rounded-md overflow-x-auto"><code>&lt;h2 class=&quot;zint-meadow-spring&quot;&gt;Meadow Spring&lt;/h2&gt;</code></pre>
+    </div>
+    <div class="bg-gray-800 rounded-lg p-6 shadow-lg">
+      <h2 class="text-4xl font-bold mb-4 zint-coral-glow">Coral Glow</h2>
+      <pre class="bg-gray-900 text-sm text-gray-300 p-4 rounded-md overflow-x-auto"><code>&lt;h2 class=&quot;zint-coral-glow&quot;&gt;Coral Glow&lt;/h2&gt;</code></pre>
+    </div>
+    <div class="bg-gray-800 rounded-lg p-6 shadow-lg">
+      <h2 class="text-4xl font-bold mb-4 zint-deep-sea-mist">Deep Sea Mist</h2>
+      <pre class="bg-gray-900 text-sm text-gray-300 p-4 rounded-md overflow-x-auto"><code>&lt;h2 class=&quot;zint-deep-sea-mist&quot;&gt;Deep Sea Mist&lt;/h2&gt;</code></pre>
+    </div>
+    <div class="bg-gray-800 rounded-lg p-6 shadow-lg">
+      <h2 class="text-4xl font-bold mb-4 zint-galactic-beam">Galactic Beam</h2>
+      <pre class="bg-gray-900 text-sm text-gray-300 p-4 rounded-md overflow-x-auto"><code>&lt;h2 class=&quot;zint-galactic-beam&quot;&gt;Galactic Beam&lt;/h2&gt;</code></pre>
+    </div>
+    <div class="bg-gray-800 rounded-lg p-6 shadow-lg">
+      <h2 class="text-4xl font-bold mb-4 zint-aqua-flora">Aqua Flora</h2>
+      <pre class="bg-gray-900 text-sm text-gray-300 p-4 rounded-md overflow-x-auto"><code>&lt;h2 class=&quot;zint-aqua-flora&quot;&gt;Aqua Flora&lt;/h2&gt;</code></pre>
+    </div>
+    <div class="bg-gray-800 rounded-lg p-6 shadow-lg">
+      <h2 class="text-4xl font-bold mb-4 zint-neon-fusion">Neon Fusion</h2>
+      <pre class="bg-gray-900 text-sm text-gray-300 p-4 rounded-md overflow-x-auto"><code>&lt;h2 class=&quot;zint-neon-fusion&quot;&gt;Neon Fusion&lt;/h2&gt;</code></pre>
+    </div>
+    <div class="bg-gray-800 rounded-lg p-6 shadow-lg">
+      <h2 class="text-4xl font-bold mb-4 zint-phoenix-fire">Phoenix Fire</h2>
+      <pre class="bg-gray-900 text-sm text-gray-300 p-4 rounded-md overflow-x-auto"><code>&lt;h2 class=&quot;zint-phoenix-fire&quot;&gt;Phoenix Fire&lt;/h2&gt;</code></pre>
+    </div>
+    <div class="bg-gray-800 rounded-lg p-6 shadow-lg">
+      <h2 class="text-4xl font-bold mb-4 zint-liquid-gold">Liquid Gold</h2>
+      <pre class="bg-gray-900 text-sm text-gray-300 p-4 rounded-md overflow-x-auto"><code>&lt;h2 class=&quot;zint-liquid-gold&quot;&gt;Liquid Gold&lt;/h2&gt;</code></pre>
+    </div>
+    <div class="bg-gray-800 rounded-lg p-6 shadow-lg">
+      <h2 class="text-4xl font-bold mb-4 zint-dreamy-haze">Dreamy Haze</h2>
+      <pre class="bg-gray-900 text-sm text-gray-300 p-4 rounded-md overflow-x-auto"><code>&lt;h2 class=&quot;zint-dreamy-haze&quot;&gt;Dreamy Haze&lt;/h2&gt;</code></pre>
+    </div>
+    <div class="bg-gray-800 rounded-lg p-6 shadow-lg">
+      <h2 class="text-4xl font-bold mb-4 zint-starlit-abyss">Starlit Abyss</h2>
+      <pre class="bg-gray-900 text-sm text-gray-300 p-4 rounded-md overflow-x-auto"><code>&lt;h2 class=&quot;zint-starlit-abyss&quot;&gt;Starlit Abyss&lt;/h2&gt;</code></pre>
+    </div>
+    <div class="bg-gray-800 rounded-lg p-6 shadow-lg">
+      <h2 class="text-4xl font-bold mb-4 zint-supernova-burst">Supernova Burst</h2>
+      <pre class="bg-gray-900 text-sm text-gray-300 p-4 rounded-md overflow-x-auto"><code>&lt;h2 class=&quot;zint-supernova-burst&quot;&gt;Supernova Burst&lt;/h2&gt;</code></pre>
+    </div>
+    <div class="bg-gray-800 rounded-lg p-6 shadow-lg">
+      <h2 class="text-4xl font-bold mb-4 zint-pastel-morning">Pastel Morning</h2>
+      <pre class="bg-gray-900 text-sm text-gray-300 p-4 rounded-md overflow-x-auto"><code>&lt;h2 class=&quot;zint-pastel-morning&quot;&gt;Pastel Morning&lt;/h2&gt;</code></pre>
+    </div>
+    <div class="bg-gray-800 rounded-lg p-6 shadow-lg">
+      <h2 class="text-4xl font-bold mb-4 zint-glacial-ice">Glacial Ice</h2>
+      <pre class="bg-gray-900 text-sm text-gray-300 p-4 rounded-md overflow-x-auto"><code>&lt;h2 class=&quot;zint-glacial-ice&quot;&gt;Glacial Ice&lt;/h2&gt;</code></pre>
+    </div>
+    <div class="bg-gray-800 rounded-lg p-6 shadow-lg">
+      <h2 class="text-4xl font-bold mb-4 zint-tropical-zest">Tropical Zest</h2>
+      <pre class="bg-gray-900 text-sm text-gray-300 p-4 rounded-md overflow-x-auto"><code>&lt;h2 class=&quot;zint-tropical-zest&quot;&gt;Tropical Zest&lt;/h2&gt;</code></pre>
+    </div>
+    <div class="bg-gray-800 rounded-lg p-6 shadow-lg">
+      <h2 class="text-4xl font-bold mb-4 zint-fuchsia-flash">Fuchsia Flash</h2>
+      <pre class="bg-gray-900 text-sm text-gray-300 p-4 rounded-md overflow-x-auto"><code>&lt;h2 class=&quot;zint-fuchsia-flash&quot;&gt;Fuchsia Flash&lt;/h2&gt;</code></pre>
+    </div>
+    <div class="bg-gray-800 rounded-lg p-6 shadow-lg">
+      <h2 class="text-4xl font-bold mb-4 zint-forest-stream">Forest Stream</h2>
+      <pre class="bg-gray-900 text-sm text-gray-300 p-4 rounded-md overflow-x-auto"><code>&lt;h2 class=&quot;zint-forest-stream&quot;&gt;Forest Stream&lt;/h2&gt;</code></pre>
+    </div>
+    <div class="bg-gray-800 rounded-lg p-6 shadow-lg">
+      <h2 class="text-4xl font-bold mb-4 zint-solar-flare">Solar Flare</h2>
+      <pre class="bg-gray-900 text-sm text-gray-300 p-4 rounded-md overflow-x-auto"><code>&lt;h2 class=&quot;zint-solar-flare&quot;&gt;Solar Flare&lt;/h2&gt;</code></pre>
+    </div>
+    <div class="bg-gray-800 rounded-lg p-6 shadow-lg">
+      <h2 class="text-4xl font-bold mb-4 zint-graphite-sheen">Graphite Sheen</h2>
+      <pre class="bg-gray-900 text-sm text-gray-300 p-4 rounded-md overflow-x-auto"><code>&lt;h2 class=&quot;zint-graphite-sheen&quot;&gt;Graphite Sheen&lt;/h2&gt;</code></pre>
+    </div>
+  </div>
+
+  <footer class="text-center text-gray-400 mt-12 py-8">
+    <p>&copy; 2025 <a href="https://github.com/NARKOZ" class="hover:text-white">Nihad Abbasov</a>. Released under the <a href="https://github.com/NARKOZ/zint/blob/main/LICENSE.txt" class="hover:text-white">BSD-2-Clause License</a>.</p>
+  </footer>
+
+  <script>
+    const themeToggle = document.getElementById('theme-toggle');
+    const body = document.body;
+    const themeIcon = themeToggle.querySelector('svg');
+
+    const sunIcon = `
+      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z" />
+    `;
+
+    const moonIcon = `
+      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z" />
+    `;
+
+    function updateIcon() {
+      if (body.classList.contains('light-theme')) {
+        themeIcon.innerHTML = moonIcon;
+      } else {
+        themeIcon.innerHTML = sunIcon;
+      }
+    }
+
+    // Check for saved theme preference
+    if (localStorage.getItem('theme') === 'light') {
+      body.classList.add('light-theme');
+    }
+    updateIcon();
+
+    themeToggle.addEventListener('click', () => {
+      body.classList.toggle('light-theme');
+
+      // Save theme preference
+      if (body.classList.contains('light-theme')) {
+        localStorage.setItem('theme', 'light');
+      } else {
+        localStorage.setItem('theme', 'dark');
+      }
+      updateIcon();
+    });
+  </script>
+</body>
+</html>

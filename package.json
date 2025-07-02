@@ -1,0 +1,36 @@
+{
+  "name": "zint",
+  "version": "1.0.0",
+  "description": "Modern, pre-built CSS gradients for text, using the OKLCH color model",
+  "homepage": "https://github.com/NARKOZ/zint",
+  "license": "BSD-2-Clause",
+  "author": "Nihad Abbasov <nihad@42na.in>",
+  "repository": "github:NARKOZ/zint",
+  "bugs": {
+    "url": "https://github.com/NARKOZ/zint/issues"
+  },
+  "files": [
+    "dist",
+    "src"
+  ],
+  "sass": "src/zint.scss",
+  "style": "dist/zint.css",
+  "keywords": [
+    "front-end",
+    "gradient",
+    "colors",
+    "web",
+    "css",
+    "sass",
+    "style"
+  ],
+  "scripts": {
+    "build": "sass src/zint.scss dist/zint.css --no-source-map",
+    "build:min": "sass src/zint.scss dist/zint.min.css --style=compressed --no-source-map",
+    "build:all": "npm run build && npm run build:min",
+    "watch": "sass src/zint.scss dist/zint.css --watch --no-source-map"
+  },
+  "devDependencies": {
+    "sass": "^1.89.2"
+  }
+}

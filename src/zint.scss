@@ -1,0 +1,46 @@
+/*! Zint v1.0.0 | BSD-2-Clause License | https://github.com/NARKOZ/zint */
+
+$zint-prefix: zint- !default;
+
+$gradients: (
+  'aqua-flora': linear-gradient(120deg, oklch(90% .25 160), oklch(65% .3 240)),
+  'azure-tide': linear-gradient(162deg, oklch(63% .22 264) 35%, oklch(68% .14 220) 79%),
+  'coral-glow': linear-gradient(to right, oklch(75% .19 30), oklch(85% .12 70)),
+  'deep-sea-mist': linear-gradient(to right, oklch(35% .03 260), oklch(65% .08 220)),
+  'dreamy-haze': radial-gradient(circle, oklch(88% .1 340), oklch(85% .08 260)),
+  'forest-stream': linear-gradient(45deg, oklch(55% .12 150), oklch(70% .1 210)),
+  'fuchsia-flash': linear-gradient(110deg, oklch(70% .3 330), oklch(50% .25 280)),
+  'galactic-beam': linear-gradient(45deg, oklch(45% .25 290), oklch(60% .25 260)),
+  'glacial-ice': linear-gradient(135deg, oklch(95% .08 210), oklch(78% .15 255)),
+  'graphite-sheen': linear-gradient(to right, oklch(25% .01 280), oklch(38% .01 280)),
+  'liquid-gold': linear-gradient(to right, oklch(65% .1 90), oklch(98% .05 100), oklch(65% .1 90)),
+  'meadow-spring': linear-gradient(162deg, oklch(68% .2 145) 35%, oklch(68% .14 220) 79%),
+  'neon-fusion': linear-gradient(to right, oklch(65% .3 330), oklch(30% .2 280)),
+  'pastel-morning': linear-gradient(to right, oklch(80% .1 50), oklch(80% .1 300)),
+  'phoenix-fire': linear-gradient(45deg, oklch(68% .24 30), oklch(58% .25 350)),
+  'solar-flare': radial-gradient(ellipse at center, oklch(90% .2 90), oklch(70% .25 45), oklch(50% .3 5)),
+  'starlit-abyss': linear-gradient(90deg, oklch(20% .05 280), oklch(35% .15 270), oklch(75% .25 230)),
+  'supernova-burst': linear-gradient(70deg, oklch(65% .25 250), oklch(85% .25 145)),
+  'tropical-zest': linear-gradient(to right, oklch(75% .2 70), oklch(90% .2 90)),
+  'volcanic-sunset': linear-gradient(162deg, oklch(65% .23 25) 35%, oklch(78% .18 60) 79%),
+);
+
+@mixin gradient-text {
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  -webkit-text-fill-color: transparent;
+}
+
+:root {
+  @each $gradient, $value in $gradients {
+    --#{$zint-prefix}#{$gradient}: #{$value};
+  }
+}
+
+@each $gradient, $value in $gradients {
+  .#{$zint-prefix}#{$gradient} {
+    @include gradient-text;
+    background-image: var(--#{$zint-prefix}#{$gradient});
+  }
+}
