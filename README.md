@@ -42,7 +42,7 @@ import 'zint/dist/zint.css';
 If you want to customize variables or use mixins, import the main Sass file in your Sass/SCSS entry:
 
 ```scss
-@use "zint/src/styles.scss";
+@use "zint/src/zint";
 ```
 
 ### CDN
